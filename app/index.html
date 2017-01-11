@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="Redes">
+<head>
+	<title>Posts App</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+	<link rel="stylesheet" type="text/css" href="css/materialdesignicons.css">
+	<link rel="stylesheet" type="text/css" href="css/lumx.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js"></script>
+	<script src="socket.io/socket.io.js"></script>
+	<script src="libs/angular/angular.js"></script>
+	<script src="libs/ui-router/angular-ui-router.js"></script>
+  <script src="/common/services/lumx.js"></script>
+	<script src="./app.js"></script>
+	<script src="/common/controllers/navigationController.js"></script>
+  <script src="/common/services/requestService.js"></script>
+	<script src="/common/services/shareSessionService.js"></script>
+	<script src="/login/controllers/loginController.js"></script>
+	<script src="/login/services/loginService.js"></script>
+	<script src="/signup/controllers/signupController.js"></script>
+	<script src="/signup/services/signupService.js"></script>
+	<script src="/sensors/controllers/sensorController.js"></script>
+	<script src="/sensors/services/sensorService.js"></script>
+</head>
+<body>
+	<div class="">
+		<div ui-view />
+	</div>
+</body>
+</html>

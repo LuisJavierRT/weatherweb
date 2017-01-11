@@ -1,0 +1,16 @@
+<nav>
+<div class = "bgc-blue-900 tc-white" flex-container="row" flex-align="center center" ng-controller="NavigationController">
+	<div flex-item="3">
+		<h1 class = "fs-display-3 display-block"> Redes App </h1>
+	</div>
+	<div flex-item="1">
+    <a href="#/home/"> HOME</a>
+	</div>
+  <div flex-item="2">
+    <a class="btn btn--a btn--white btn--flat underline" ng-click="logout()">Log Out</a>
+  </div>
+</div>
+</nav>
+<div class="ui-base" flex-container="row" flex-align="center">
+  <div ui-view flex-item="9"/>
+</div>

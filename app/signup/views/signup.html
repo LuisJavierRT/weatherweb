@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-5 remove-float center-block big-top-space">
+      <form>
+        <div class="form-group">
+          <input class="form-control" type="text" placeholder="Name" required ng-model="userData.name"></input>
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="text" placeholder="Username" required ng-model="userData.username"></input>
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="password" placeholder="Password" required ng-model="userData.password"></input>
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="text" placeholder="Email" required ng-model="userData.email"></input>
+        </div>
+        <br>
+        <div>
+          <button class="btn btn--blue btn--l btn--raised" style="margin:auto;display:block" type="button" ng-click="signUp(userData)"> Sign Up </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
