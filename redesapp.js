@@ -9,7 +9,7 @@ var express = require("express"),
     signUpController = require("./controllers/signUpController"),
     sensorController = require("./controllers/sensorController");
 
-var myPort = new SerialPort("COM5", {
+var myPort = new SerialPort("COM3", {
   baudrate: 9600,
   parser: serialport.parsers.readline("\n")
 });
